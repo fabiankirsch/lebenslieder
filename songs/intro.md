@@ -1,13 +1,19 @@
 ---
 sidebar_position: 1
 title: "Start"
+description: "Gemeinsam singend mit unseren Kinder das Leben feiern und betrauern."
 slug: '/'
 ---
 
 
 # Lebenslieder
 
-Gemeinsam singend mit unseren Kinder das Leben feiern und betrauern. 
+:point_right: Gemeinsam  
+:point_right: singend  
+:point_right: mit unseren Kinder   
+:point_right: das Leben   
+:point_right: feiern  
+:point_right: und betrauern.  
 
 
 
