@@ -3,7 +3,18 @@ sidebar_position: 4
 ---   
   
 # Oh Masala, die Welt ist bunt  
+import AudioComponent from '@site/src/components/AudioComponent'; 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+## Audio
+
+<AudioComponent source="/audio/o-masala-die-welt-ist-bunt-grundschule-riedenberg-15-september-2012.m4a"/>  
+
+## Lyrics 
   
+
 Oh, Masala, die Welt ist bunt.  
 Oh, Masala, und kugelrund.  
 Oh, Masala, die Welt ist schön  

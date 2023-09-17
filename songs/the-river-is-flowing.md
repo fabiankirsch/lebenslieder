@@ -3,6 +3,17 @@ sidebar_position: 5
 ---   
   
 # The river is flowing  
+
+import AudioComponent from '@site/src/components/AudioComponent'; 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+## Audio
+
+<AudioComponent source="/audio/the-river-is-flowing.m4a"/>  
+
+## Lyrics 
   
 The river is flowing.  
 Flowing and growing.  
@@ -26,5 +37,9 @@ back to the sea
 back to the sea  
 
 ---
+
+- Source of embedded audio file: [The River Is Flowing - Lindie Lila](https://www.youtube.com/watch?v=BwIUuSZ01f4)
+  - Artist: Lindie Lila
+  - Album: Return Of The Goddess: Sacred Chants For Women
 
 - Listen on [Youtube: The river is flowing]( https://www.youtube.com/watch?v=0azLrbDuv1I)
