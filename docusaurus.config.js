@@ -21,6 +21,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
 			path: "songs",
+			breadcrumbs: false,
 			routeBasePath: "/",
 			sidebarPath: require.resolve('./sidebars.js'),
         },
@@ -49,7 +50,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
         ],
-        copyright: `${new Date().getFullYear()} Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} Built with <a href=https://docusaurus.io>Docusaurus</a>. Published via <a href=https://surge.sh>surge.sh</a>. Website repo on <a href=https://github.com/fabiankirsch/lebenslieder>Github</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
