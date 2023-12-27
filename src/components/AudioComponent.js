@@ -4,7 +4,7 @@ const AudioComponent = ({ name, source }) => {
     return (
         <div>
             <p>{name}</p>
-            <audio controls>
+            <audio controls class="full-width-audio-player">
                 <source src={source} type="audio/mpeg" />
                 Your browser does not support the audio element.
             </audio>

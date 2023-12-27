@@ -26,3 +26,8 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.full-width-audio-player {
+        width: 100%; /* Full width */
+        outline: none; /* Remove focus outline if desired */
+    }
