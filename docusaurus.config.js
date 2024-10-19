@@ -4,15 +4,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Lebenslieder',
-  tagline: 'Gemeinsam singend mit unseren Kinder das Leben feiern und betrauern',
-  url: 'http://lebenslieder.surge.sh',
+  title: 'Goldgraben Liederbuch',
+  url: 'http://liederbuch.goldgraben.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/tree-soundwaves-drawing.webp',
-  organizationName: 'singinghourse', // Usually your GitHub org/user name.
-  projectName: 'lebenslieder', // Usually your repo name.
 
   presets: [
     [
@@ -38,10 +34,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Lebenslieder',
+        title: 'Goldgraben Liederbuch',
         logo: {
-          alt: 'Lebenslieder Logo',
-          src: 'img/tree-soundwaves-drawing.webp',
+          alt: 'Bluebird',
+          src: 'img/the-bluebird.jpg',
         },
         items: [
         ],
@@ -50,7 +46,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
         ],
-        copyright: `${new Date().getFullYear()} Built with <a href=https://docusaurus.io>Docusaurus</a>. Published via <a href=https://surge.sh>surge.sh</a>. Website repo on <a href=https://github.com/fabiankirsch/lebenslieder>Github</a>.`,
+        copyright: `G`,
       },
       prism: {
         theme: lightCodeTheme,
