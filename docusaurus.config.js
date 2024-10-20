@@ -37,7 +37,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'Goldgraben Liederbuch',
         logo: {
           alt: 'Bluebird',
-          src: 'img/the-bluebird.jpg',
+          src: 'img/the-bluebird-transparent-128x128.png',
         },
         items: [
         ],
