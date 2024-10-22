@@ -6,6 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Goldgraben Liederbuch',
   url: 'http://liederbuch.goldgraben.net',
+  favicon: 'img/the-bluebird-transparent-128x128.png',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
