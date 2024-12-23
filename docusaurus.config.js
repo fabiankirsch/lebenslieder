@@ -30,6 +30,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       }),
     ],
   ],
+  plugins: [
+	  [require.resolve("@cmfcmf/docusaurus-search-local"),
+   {
+        // Options here
+	   indexBlog: false,
+	   lunr: {
+		   b: 0,
+	   },
+
+
+      }],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
