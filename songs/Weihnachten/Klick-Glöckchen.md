@@ -1,4 +1,4 @@
-# Klick Glöckchen
+# Kling Glöckchen
 
 Kling Glöckchen, klingelingeling, kling Glöckchen, kling Laßt mich ein ihr Kinder, ist so kalt der Winter, öffnet mir die Türen, laßt mich nicht erfrieren! Kling Glöckchen, klingelingeling, kling Glöckchen, kling
 
