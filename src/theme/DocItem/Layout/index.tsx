@@ -4,7 +4,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
 import React from 'react';
 import clsx from 'clsx';
 import {useWindowSize} from '@docusaurus/theme-common';
@@ -18,6 +17,7 @@ import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop';
 import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import type {Props} from '@theme/DocItem/Layout';
+import SearchBar from '@theme/SearchBar';
 
 import styles from './styles.module.css';
 
@@ -46,6 +46,30 @@ function useDocTOC() {
 }
 
 export default function DocItemLayout({children}: Props): JSX.Element {
+  const docTOC = useDocTOC();
+  return (
+    <div className="row">
+      <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
+        <DocVersionBanner />
+        <div className={styles.docItemContainer}>
+          <article>
+            <DocBreadcrumbs />
+            <DocVersionBadge />
+            {docTOC.mobile}
+            <DocItemContent>{children}</DocItemContent>
+			<hr/>
+            <DocItemFooter />
+			<p align="center"><b><a href="/tags">Übersicht Kategorien</a> | <a href="/">Übersicht Lieder</a></b></p>
+			<SearchBar />
+          </article>
+        </div>
+      </div>
+      {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
+    </div>
+  );
+}
+
+function Backup_DocItemLayout({children}: Props): JSX.Element {
   const docTOC = useDocTOC();
   return (
     <div className="row">
