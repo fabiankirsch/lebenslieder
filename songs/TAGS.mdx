@@ -1,0 +1,10 @@
+# Alle Kategorien (Übersicht) 
+
+export default function RedirectPage() {
+  if (typeof window !== 'undefined') {
+    // Check if we're on the client side
+    window.location.href = '/tags';
+  }
+  return null; // Return null or some loading indicator
+}
+
