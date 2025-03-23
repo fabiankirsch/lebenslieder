@@ -42,4 +42,5 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .full-width-audio-player {
         width: 100%; /* Full width */
         outline: none; /* Remove focus outline if desired */
+		margin-bottom: 30px;
     }
